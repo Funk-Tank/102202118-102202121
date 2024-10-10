@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat with 白学习</title>
+    <link rel="stylesheet" href="style.s.css">
+    <!-- ... 其他代码 ... -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="phone-border">
+            <div class="timestamp">12:00</div>
+            <!-- 返回图标 -->
+            <a href="students.html" class="back-button">
+                <i class="fas fa-arrow-left"></i>
+            </a>
+            <h1 class="chat-title">聊天室 - 白学习</h1>
+            <!-- 聊天内容区域 -->
+            <div class="chat-content">
+                <!-- 聊天消息 -->
+                <!-- 消息可以是动态加载的，也可以是静态的 -->
+                <div class="message incoming">
+                    你好，白学习同学！
+                </div>
+                <div class="message outgoing">
+                    嗨，你好！
+                </div>
+                <!-- 更多消息 -->
+            </div>
+            <!-- 输入区域 -->
+            <div class="chat-input">
+                <input type="text" placeholder="输入消息..." id="message-input">
+                <button id="send-button">发送</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

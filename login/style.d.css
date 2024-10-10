@@ -1,0 +1,80 @@
+/* 默认样式 */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    color: #333;
+}
+
+
+.timestamp {
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.wrapper {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* 适应不同屏幕尺寸 */
+@media (max-width: 600px) {
+    .wrapper {
+        padding: 5px;
+    }
+}
+
+@media (max-width: 400px) {
+    .input-group input {
+        padding: 8px; /* 在小屏幕上减小输入框内边距 */
+    }
+
+    .login-button {
+        padding: 8px; /* 在小屏幕上减小按钮内边距 */
+    }
+}
+
+.help-links {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #007bff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.help-links a {
+    margin: 0 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.help-links a:hover {
+    text-decoration: underline;
+}
+
+/* 其他样式 */
+.input-group input, .login-button {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.login-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-button:hover {
+    background-color: #0056b3;
+}

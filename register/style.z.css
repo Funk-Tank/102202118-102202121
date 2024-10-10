@@ -1,0 +1,79 @@
+body, html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    color: #333;
+}
+
+.wrapper {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.timestamp {
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+.register-form {
+    width: 100%;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-sizing: border-box; /* 确保内边距和边框宽度包含在宽度内 */
+}
+
+.register-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px; /* 增加按钮与其他元素的间距 */
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+.register-button:hover {
+    background-color: #0056b3;
+}
+
+/* 媒体查询，针对小屏幕优化 */
+@media (max-width: 600px) {
+    .wrapper {
+        padding: 15px; /* 在小屏幕上减小内边距 */
+    }
+}
+
+@media (max-width: 400px) {
+    .wrapper {
+        padding: 10px; /* 在超小屏幕上进一步减小内边距 */
+    }
+    
+    .input-group input {
+        padding: 8px; /* 在小屏幕上减小输入框内边距 */
+    }
+
+    .register-button {
+        padding: 8px; /* 在小屏幕上减小按钮内边距 */
+    }
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <link rel="stylesheet" href="style.z.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="timestamp">12:00</div>
+        <form class="register-form">
+            <div class="input-group">
+                <label for="student-id">学号/工号</label>
+                <input type="text" id="student-id" placeholder="Enter your ID" required>
+            </div>
+            <div class="input-group">
+                <label for="school">绑定学校</label>
+                <input type="text" id="school" placeholder="Enter your school" required>
+            </div>
+            <div class="input-group">
+                <label for="password">输入密码</label>
+                <input type="password" id="password" placeholder="Enter your password" required>
+            </div>
+            <div class="input-group">
+                <label for="confirm-password">确认密码</label>
+                <input type="password" id="confirm-password" placeholder="Confirm your password" required>
+            </div>
+            <div class="input-group">
+                <label for="phone">绑定手机</label>
+                <input type="text" id="phone" placeholder="Enter your phone number" required>
+            </div>
+            <div class="input-group">
+                <label for="verification-code">输入验证码</label>
+                <input type="text" id="verification-code" placeholder="Enter verification code" required>
+            </div>
+            <button type="button" class="register-button" id="register">立即注册</button>
+        </form>
+    </div>
+    <script src="script.z.js"></script>
+</body>
+</html>
